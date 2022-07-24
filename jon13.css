@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+header{
+    background-color:white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding:  1px 1%;
+    max-width: 100%;
+    letter-spacing: 4px;
+    box-shadow:#607d8b;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 2px 2px -2px rgba(0,0,0,.2);
+    
+}
+/*.cont{
+    
+}
+.maindiv{
+    width: ;
+}*/
+.imgdiv{
+    width: 90%;
+    margin: auto;
+}
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style: none;
+    padding: 20px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding:10px;
+}
+.joon ul li a:hover,.maindiv a:hover{
+    background-color: gray;
+    box-sizing: border-box;
+    padding:10px;
+}
+.alloff{
+    width: 90%;
+    margin: auto;
+}
+.father{
+    width:90%;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap    ;
+}
+.container{
+width:23%;
+position: relative;
+flex-wrap: wrap    ;
+    
+}
+.disk{
+    position: absolute;
+    top:0;
+}
+img{
+    width: 100%;
+}
+.allteam{
+    width: 90%;
+    background-color:;
+    margin: auto;
+    justify-content: space-evenly;
+    display: flex;
+    padding: 10px;
+}
+.team{
+    width:20% ;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding:5px;
+    box-sizing: border-box;
+}
+
+.buttan{
+    color: black;
+    padding:  8px 16px;
+    margin: 16px 0px;
+    background-color: gray;
+    width: 100%;
+    border: none; 
+    transition: all 0.8s ease 
+}
+.buttan:hover{
+    
+    background-color: rebeccapurple;
+}
+.imgdiv{
+    width: 100%;
+    position: relative;
+}
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.line{
+    width: 90%;
+    margin: auto;
+}
+.apple{
+    padding: 8px;
+    display: block;
+    border-color: #607d8b;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    border:none;
+    border:1px solid black;
+}
+
+.disk{
+    background-color: black;
+    color: white;
+}
+@media screen and (max-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+    header{
+        flex-direction: column;
+    }
+    .father{
+       
+        flex-direction: column;
+
+    }
+    .container{
+        width:100%;
+    }
+    .allteam{
+        flex-direction: column;
+    }
+    .team{
+        width: 100%;
+    }
+  }
